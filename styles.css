@@ -73,6 +73,7 @@ nav{
     border-radius: 1000px;
     cursor: pointer;
 }
+
 .banner-button{
      display: flex;
      align-items: center;
@@ -116,9 +117,9 @@ nav{
    justify-content: center;
    align-items: center;
    text-align: center;
-  background-image: url(../milestone-1/B13-A01-Knowledge-Vault/assets/hero-bg.png);
-  max-width:100%;
-  height: 1363px;
+   background-image: url('../images/assets/hero-bg.png');
+  width: 100%;
+ min-height: 100vh;
   
 
  
@@ -342,8 +343,8 @@ nav{
 .footer-container{
   
 
-    padding:60px 20px;
-    
+    padding:80px ; 
+  
    background-color:rgba(0, 25, 49, 1) ;
 
 
@@ -409,6 +410,5 @@ nav{
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin-top: 80px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
